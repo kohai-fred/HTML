@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/bg-masthead.jpg);
+
+    font-family: Verdana, sans-serif;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.fas{
+    color: #FF8508;
+}
+
+/* Header */
+
+header{
+    background-color: #6db800;
+}
+div{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+}
+#Hgauche, #Hdroite{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#Hgauche{
+    width: 30%;
+
+    background-color: royalblue;
+}
+
+#Hdroite{
+    width: 30%;
+
+    background-color: sandybrown;
+}
+
+/* Main */
+
+main section{
+    background-color: white;
+    width: 60%;
+    margin-left: auto;
+    margin-left: auto;
+    
+}
+
+h1{
+    font-size: 1.875rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+article{
+    width: 50%;
+}
+
+#Agauche img, #Adroite img{
+    width: 50%;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+thead{
+    background-color: #000;
+    color: red;
+}
+/* A voir pour les lignes impaires du <tbody>?
+.impair{
+    background-color: #ddd;
+} */
+
+caption{
+    caption-side: bottom;
+}
+
+/* Footer */
+
+footer{
+    background-color: #FF8508;
+    text-align: center;
+    color: rgb(74, 82, 158);
+    line-height : 1.2;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,0 +1,136 @@
+/* images */
+
+header{
+    height: 289px;
+    background-image: url(../img/entete.png);
+    opacity: 0.5;
+    background-repeat: repeat-x;
+    background-position: center;
+
+    border-bottom: 15px solid #000;
+}
+
+
+body{
+    background-image: url(../img/paper-texture.jpg);
+}
+
+#index img{
+    display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#index figcaption{
+    text-align: center;
+}
+
+#tiret a{
+    text-decoration: none;
+    font-size: bold;
+}
+
+/* Tailles site */
+#index{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/* polices */
+
+@font-face{
+    font-family: "Blacksword";
+    src: url(../fonts/Blacksword.otf);
+}
+
+
+#index{
+    font-family: 'Cardo', serif;
+    font-size: 1.4em;
+    line-height : 50px;
+    text-align: justify;
+    color: #65615d;
+}
+
+
+#index h1,#index h2,#index h3{
+    font-family: "Blacksword";
+}
+
+/* Tailles polices */
+
+#index h1{
+    font-size: 4em;
+    text-align: center;
+}
+
+#index h2{
+
+    font-size: 2.5em;
+    word-spacing: 25px;
+}
+
+#index h3{
+
+    font-size: 1.5em;
+    word-spacing: 10px;
+}
+
+#index p{
+    text-indent : 25px;
+}
+
+
+#index blockquote{
+    font-style: italic;
+    text-align: center;
+    font-size: 1.6em;
+
+}
+#index cite{
+    display: block;
+    text-align: right;
+}
+
+
+#index footer p{
+
+    text-indent: initial;
+    line-height : 1.2;
+}
+
+
+/* Couleurs */
+
+#index a{
+    color: #2F70AA;
+}
+
+#index blockquote{
+    color: #666;
+}
+
+#index nav a{
+    color: #000;
+}
+
+#index nav a:hover {
+    color: #2F70AA;
+}
+
+/* lettrines flottante */
+
+.lettres {
+    color: rgb(139, 29, 139);
+    font-size: 100px;
+    font-family: 'Blacksword';
+    float: left;
+    margin-right: 25px;
+    padding-top: 25px;
+}

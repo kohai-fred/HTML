@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4c4c4c;
+    font-size: 1.2rem;
+}
+
+/*******************
+        header
+*******************/
+
+.main-head{
+    padding-top: 40px;
+}
+.header-gauche{
+    border-left: 5px solid #ea9f05;
+    padding-top: 40px;
+}
+
+
+.header-compte{
+    background-color: rgba(76, 76, 76, 0.2);
+    border: 2px solid rgba(76, 76, 76, 0.6);
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.nav-lien{
+    border-left: 1px solid rgba(76, 76, 76, 0.2);
+}
+/*******************
+        MAIN
+*******************/
+.boxer{
+    padding: 0;
+    
+}
+
+.boxer img{
+    width:100%;
+    margin-top: 15px; 
+    box-shadow: 2px 2px 2px 2px solid rgba(0, 0, 0, 0.6); 
+}
+
+.vente{
+    padding-top: 50px;
+    position: relative;
+}
+
+/* .barre-noire{
+    background-color: #373737;
+    position: absolute;
+    height: 25px;
+    transform: translateY(25px);
+    visibility: hidden;
+    width: 100%;
+}  */
+
+
+.gant{
+    margin-bottom: 75px;
+}
+
+.vente figure{
+    
+    border: 1px solid #4c4c4c;
+}
+
+.voir-la-vente{
+    
+    background: linear-gradient(to bottom, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);
+    color:  #fff;
+    padding: 10px 25px 10px 25px;
+}
+.gant-noir-1{
+    position: relative;
+}
+
+.gant-noir-1 .etiquette{
+    position: absolute;
+    top: 9px;
+    right: -25px;
+    background-color: #4c4c4c;
+    display: inline;
+    color: #ea9f05;
+    font-size: 2rem;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.gant-noir-2{
+    position: relative;
+}
+
+.gant-noir-2 .etiquette{
+    position: absolute;
+    top: 9px;
+    right: -25px;
+    background-color: #4c4c4c;
+    display: inline;
+    color: #ea9f05;
+    font-size: 2rem;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.gant-rouge-1{
+    position: relative;
+}
+
+.gant-rouge-1 .etiquette{
+    position: absolute;
+    top: 9px;
+    right: -25px;
+    background-color: #4c4c4c;
+    display: inline;
+    color: #ea9f05;
+    font-size: 2rem;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.gant-rouge-2{
+    position: relative;
+}
+
+.gant-rouge-2 .etiquette{
+    position: absolute;
+    top: 9px;
+    right: -25px;
+    background-color: #4c4c4c;
+    display: inline;
+    color: #ea9f05;
+    font-size: 2rem;
+    padding: 15px;
+    border-radius: 5px;
+}
+.etiquette p{
+    margin: 0;
+}
+
+.prix-origine{
+    text-decoration:line-through;
+}
+
+.prix-remise{
+    font-size: 2rem;
+    color: #ea9f05;
+}
+
+
+
+/*******************
+        FOOTER
+*******************/
+
+footer{
+    background-color: #373737;  
+    color: #e2d7d7;  
+    position: relative;
+    width: 100%;
+}
+
+.nav-foot{
+    background-color: #e2d7d7;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    position: absolute;
+    top: -30px;
+    
+    
+    
+}
+
+.foot-middle{
+    
+    padding: 50px 160px 50px 160px;
+}
+
+.reseaux{
+    display: inline-block;
+    width: 500px;
+}
+.reseaux a{
+    padding: 20px;
+}
+
+.copy{
+    padding-top: 30px;
+}
+
+footer p{
+    margin-bottom: 0;
+}

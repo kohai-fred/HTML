@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+}
+
+/* pour calculer facilement les "PX" en "REM"
+la valeur du "REM" qui est en base 16px (comme la taille de police par défaul des navigateurs,
+le "REM" passe en base 10px;
+
+html{
+    font-size: 62.5%;
+}
+} */
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    background-color: #444;
+    padding: 20px;
+    font-size: 1.6rem;
+    line-height: 2;
+    font-size: 1.6rem;
+    color: #fff;
+    
+}
+
+@font-face{
+    font-family: "QuentinPro";
+    src: url(../fonts/QuentinPro.otf);
+}
+
+
+
+/***************************
+           HEADER
+***************************/
+header{
+    background: linear-gradient(130deg, #ffffff 0%,#ffffff 50%,#333 50%,#333 100%);
+    font-family: "QuentinPro";
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+header img{
+        transition-duration: 0.4s;   
+}
+
+header img:hover{
+    transform: rotate(15deg) scale(0.8); 
+    transition-duration: 0.4s;   
+}
+.flex-header{
+
+    display: flex;
+    justify-content: space-between;  
+    box-shadow: 1px solid rgba(0,0,0,0.2); 
+}
+
+
+.flex-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    transition: 0.4s;
+}
+
+header a{
+    color: #fff;
+    font-family: "QuentinPro";
+    text-decoration: none;
+}
+
+.flex-nav a:hover{
+    color:#ff9d00;
+    transform: translateY(10px);
+    transition: 0.4s;
+}
+
+/***************************
+           MAIN
+***************************/
+
+.principale{
+    text-align: center;
+}
+
+h1,h2,h3{
+    text-transform: uppercase;
+    font-family: "QuentinPro";
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3rem;
+    border-left: solid rgba(0, 0, 0, 0.075);
+    border-top: solid rgba(0, 0, 0, 0.075);
+    padding-left: 10px;
+}
+
+h3{
+    font-size: 2.5rem
+}
+
+.rabbit{
+    color:#FF9D00;
+    text-transform: none;
+    letter-spacing: 5px;
+}
+
+.orange{
+    color: #ff9d00;
+}
+/* section Vetement */
+.vetement h2{
+    text-align: start;
+}
+.flex-produit{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.vetement img{
+    width: 100%; 
+}
+
+.flex-produit article{
+    flex-basis: 23%;
+    padding: 15px; 
+    background-color: #fff;
+    color: #000;
+    transition: 0.4s;
+}
+
+.flex-produit article:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,1);
+    transition-property: all;
+    transition: 0.4s;    
+}
+
+.a-button{
+    display: block;
+    background-color: #ff9d00;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.flex-produit h3{
+    border-bottom: 2px solid #ff9d00;
+}
+
+/* En-détail */
+
+.en-detail h2,.en-detail h3{
+    text-align: start;
+}
+
+.flex-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-detail .fab{
+    font-size: 5rem;
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    border:1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    word-spacing: 2rem;
+}
+
+@keyframes bounce{
+
+    0%{
+        transform: translateY(0px);
+    }
+
+    100%{
+        transform: translateY(-15px);
+    }
+
+}
+
+.awesome .fab:hover{
+    color: #ff9d00;
+    border: 1px solid #ff9d00;  
+    animation: bounce 0.35s ease-in-out 0s infinite alternate;
+
+}
+
+.video{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/***************************
+           FOOTER
+***************************/
+footer{
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+footer a{
+    color: #fff;
+}
+
+footer nav{
+    word-spacing: 2rem;
+}

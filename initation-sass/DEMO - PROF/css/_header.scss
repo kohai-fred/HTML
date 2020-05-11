@@ -1,0 +1,24 @@
+header{
+    background-color: $bg1;
+    text-align: center;
+
+    nav{
+        display: flex;
+        flex-direction: column;
+
+        &:hover{
+            background-color: $bg2;
+        }
+
+        a{
+            color: $color1;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-decoration: none;
+
+            &:hover{
+                color:$color2;
+            }
+        }
+    }
+}

@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: khaki; */
+}
+
+body{
+
+    padding: 20px;
+}
+
+/*********************
+    test overlay
+*********************/
+#tab{
+
+    display: none;
+}  
+
+#tab1{
+
+    display: none;
+}
+.container-overlay{
+    
+    width: 100%;
+    position: relative;
+    
+    
+}
+header img{
+
+    display: block;
+    
+}
+
+.overlay-mob{
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+    /* background-color: lightcoral; */
+}
+
+
+.flex-head{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+
+.flex-h1{
+
+    display: flex;
+    justify-content: center;
+}
+
+h1,h2,h3,h4{
+    
+    margin: 0px;
+}
+
+nav{
+
+    text-align: center;
+}
+
+#nav1{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.flex-tab{
+
+    display: flex;
+    margin-top: 10PX;
+
+}
+
+/*********************
+        768PX
+*********************/ 
+
+@media screen and (min-width: 768px){
+
+    #mob{
+    
+       /* display: none; */
+       
+    }
+
+   /*  #tab{
+
+        display: initial;
+        position: absolute; 
+        
+    }  */ 
+
+    #banniere{
+
+        /* visibility: hidden; */
+        
+    }
+
+    #tab1{
+
+        display: initial;
+    }
+
+    #tab2{
+
+        display: none;
+    }
+    .flex-full{
+
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        
+        margin-left: auto;
+        margin-right: auto;
+        
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+       
+
+    /* background-color: red; */
+    }
+
+    .flex-head{
+
+        
+        flex-direction: row;
+        justify-content: space-between;
+        
+        
+    }
+
+    #nav1{
+        
+        justify-content: flex-end;
+        
+    }
+
+    .flex-tab{
+
+        
+        margin-top: 0PX;
+        flex-direction: column;
+        
+    }
+
+    .flex-h1{
+
+        
+        justify-content: space-between;
+    }
+
+}
+
+
+
+/*********************
+   fin test overlay
+*********************/  
+
+.p{
+    width: 70%;
+}
+
+aside{
+    text-align: center;
+}
+footer{
+    background-color: dimgray;
+
+}
+
+.flex-foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-foot{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+

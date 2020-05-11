@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(../img/bg-masthead.jpg);
+    background-size: cover;
+
+    font-family: Verdana, sans-serif;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+/* Commun */
+.contenair{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.maj{
+    text-transform: uppercase;
+}
+.fas{
+    color: #FF8508;
+}
+
+.lasuite{
+    text-align: right;
+}
+
+.lasuite a{
+    color: white;
+    text-decoration: none;
+    background-color: #FF8508;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+
+}
+
+.lasuite a:hover{
+    color: #C96500;
+}
+
+/* Header */
+
+header{
+    background-color: #6db800;
+
+}
+
+
+header img, header nav{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* header img{
+    margin-right: 0px;
+} */
+header nav{
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+    font-family: 'Oswald', sans-serif;;
+    line-height: 1.5rem;
+}
+header nav a{
+    margin-right: 10%;
+    text-transform: uppercase;
+    color: #03a0c6;
+
+}
+header nav a:hover {
+    color:#fff;
+    background-color: #C96500;
+}
+/* Main */
+
+.bgcw{
+    background-color: white;
+    position: relative;
+    padding: 0px 15px 15px 15px;
+}
+
+#sticker img{
+    width: 100%;
+}
+#sticker{
+    transform: rotate(25deg);
+    padding: 15px;
+    background-color: #ff8508;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    box-shadow: 5px 10px 5px darkgray;
+}
+
+h1,h2{
+    font-family: 'Oswald', sans-serif;;
+    color: #03a0c6;
+}
+
+h1{
+    font-size: 1.875rem;
+    text-align: center;
+    color: #03a0c6;
+    text-shadow: 2px 5px 5px darkgray;
+    
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+article{
+    width: 49%;
+    position: relative;
+}
+
+#Agauche, #Adroite{
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+#Agauche{
+    margin-right: 10px;
+}
+
+#Adroite{
+    margin-left: 10px;
+}
+
+#Agauche img, #Adroite img{
+    width: 50%;
+}
+
+#Agauche img{
+    float: left;
+    margin-right: 15px;
+}
+
+#Adroite img{
+    float: right;
+    margin-left: 15px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead{
+    background-color: #000;
+    color: white;
+}
+
+th, td{
+    border: 1px solid #ddd;
+}
+
+td{
+    text-align: center;
+}
+
+.impaire{
+    background-color: #ddd;
+} 
+
+caption{
+    caption-side: bottom;
+}
+
+/* Footer */
+
+footer{
+    background-color: #FF8508;
+    text-align: center;
+    color: rgb(74, 82, 158);
+    line-height : 1.2;
+
+    margin-top: 20px;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}

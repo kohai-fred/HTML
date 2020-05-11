@@ -1,0 +1,86 @@
+
+
+body{
+    color: #212529;
+    font-family: 'Lato', Arial, Helvetica, sans-serif sans-serif;
+}
+/************* HEADER ****************/
+
+/************* MAIN ****************/
+header{
+    position: fixed;
+    z-index: 100;
+    right: 0;
+    left: 0;
+    
+}
+.haut-page{
+    background-image: url(../img/bg-masthead.jpg);
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.haut-page form{
+    padding-top: 55px;
+}
+
+.index h1{
+    font-size: 2.5rem;
+}
+
+.options{
+    padding-top: 135px;
+    padding-bottom: 135px;
+}
+
+.options h2{
+    padding-bottom: 50px;
+    
+}
+
+.icon-option{
+    font-size: 5rem;
+    color: #0069d9;    
+}
+
+.bg-phone{
+    background-image: url(../img/bg-showcase-1.jpg);
+    background-size: cover;
+    height: 455px;
+    
+}
+
+.conception{
+    padding: 100px;
+}
+
+.bas-page{
+    background-image: url(../img/bg-masthead.jpg);
+    background-size: cover;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    background-position: center;
+}
+
+.temoignages h2{
+    margin-top: 135px;
+}
+
+.temoignages img{
+    width: 200px;
+}
+
+.temoignages cite{
+    font-size: larger;
+    
+}
+
+.temoignages blockquote{
+    font-style: italic;
+    padding-bottom: 100px;
+}
+
+.bas-page form{
+    padding-top: 55px;
+}

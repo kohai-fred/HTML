@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+body{
+
+    color: #333;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.body-container{
+
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15PX;
+}
+
+
+
+/*************************************************
+                    MOBILE FIRST
+*************************************************/
+
+
+/**************
+    COMMUN
+***************/
+
+a{
+
+    text-decoration: none;
+    color: rgb(252, 6, 6);
+}
+
+/**************
+    HEADER
+***************/
+
+.container-overlay{
+    
+    width: 100%;
+    position: relative;
+    
+} 
+
+header #banniere{
+
+    display: none;
+}
+
+
+.overlay-mob{
+    
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+    background-color: lightcoral;
+
+    
+    
+    
+}
+
+
+.flex-head-logo{
+
+    display: flex;
+    width: 100;
+   justify-content: center;
+  
+}
+
+header .flex-head-logo a{
+
+    text-transform: uppercase;
+    
+}
+
+.flex-nav-head{
+
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    padding-top: 15px;
+    flex-direction: column;
+}
+
+header nav a{
+
+    font-size: 10px;
+}
+
+#posez{
+
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: hidden;
+    
+
+    color: #fff;
+    background-color: #6ec542;
+}
+
+
+/**************
+    MAIN
+***************/
+
+
+.grise{
+
+    background-color: #f1f1f1;
+    padding-bottom: 10px;
+}
+
+.grise button{
+
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: hidden;
+
+    color: #fff;
+    background-color: #6ec542;
+
+}
+
+/**************
+    ASIDE
+***************/
+
+
+
+
+/**************
+    FOOTER
+***************/
+footer{
+
+    background-color: #484848;
+      
+
+}
+
+footer a{
+
+    color: #fff; 
+}
+
+.flex-foot{
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    
+}
+
+.flex-nav-foot{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 10px;
+}
+
+/*************************************************
+                    768 PX
+*************************************************/

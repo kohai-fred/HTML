@@ -1,0 +1,72 @@
+/*Ceci est un commentaire CSS*/
+$bg1: #ccc;
+$bg2: grey;
+$color1: #eee;
+$color2: green;
+$color3: rgb(112, 112, 112);
+$border1: 2px solid rgb(181, 181, 181);
+
+/*$bg1: rgb(233, 54, 54);
+$bg2: rgb(95, 19, 19);
+$color1: rgb(250, 203, 203);
+$color2: green;
+$color3: rgb(109, 40, 40);
+$border1: 2px solid rgb(179, 118, 118);*/
+
+/*Déclaration d'un mixin*/
+/*@mixin bgColBord(){
+    background-color: rgb(233, 54, 54);;
+    border: 2px solid rgb(179, 118, 118);
+    color: rgb(109, 40, 40);
+}*/
+
+@mixin bgColBord($bg1, $border1, $color3){
+    background-color: $bg1;
+    border: $border1;
+    color: $color3;
+}
+
+/*Fonction réutilisable*/
+$coef: 62.5 / 100;
+$base-px: 16px;
+@function pxTOrem($px,$coef,$base-px,$unit){
+	$rem: $px / $base-px / $coef;
+	@return $rem + $unit;
+}
+
+@import "_normalize";
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width:70%;
+    margin:auto;
+}
+
+h1{
+    font-size: pxTOrem(20px,$coef,$base-px,rem);
+}
+
+//ceci est un commentaire SCSS
+@import "_header";
+
+/*section test*/
+.test{
+    .flex-article{
+        display: flex;
+        justify-content: space-between;
+
+        article{
+            flex-basis: 30%;
+            padding:20px;
+            @include bgColBord($bg1, $border1, $color3);
+        }
+    }
+}
+
